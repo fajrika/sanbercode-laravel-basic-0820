@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fajrika</title>
+</head>
+
+<body>
+    <p>
+        <h1>Buat Account Baru!</h1>
+    </p>
+    <p>
+        <h2>Sign Up Form</h2>
+    </p>
+    <form action="welcome.html" method="post">
+        <label>First name:</label><br><br>
+        <input type="text" name="fname" required><br><br>
+
+        <label>Last name:</label><br><br>
+        <input type="text" name="lname" required><br><br>
+
+        <label>Gender:</label><br><br>
+        <input type="radio" name="gender" value="male" required>
+        <label>Male</label><br>
+        <input type="radio" name="gender" value="female" required>
+        <label>Female</label><br>
+        <input type="radio" name="gender" value="other" required>
+        <label>Other</label><br><br>
+
+        <label>Nationality</label><br><br>
+        <select name="nationality" required>
+            <option value="indonesia">Indonesian</option>
+            <option value="nihon">Nihon</option>
+        </select><br><br>
+
+        <label>Language Spoken:</label><br><br>
+        <input type="checkbox" name="language" value="male">
+        <label>Bahasa Indonesia</label><br>
+        <input type="checkbox" name="language" value="female">
+        <label>English</label><br>
+        <input type="checkbox" name="language" value="other">
+        <label>Other</label><br><br>
+
+
+        <label>Bio:</label><br><br>
+        <textarea type="text" name="bio" cols="30" rows="10"></textarea><br><br>
+
+        <button type="submit">Sign Up</button>
+    </form>
+</body>
+
+</html>
